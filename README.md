@@ -1,3 +1,0 @@
-# License plate recognition template
-
-
