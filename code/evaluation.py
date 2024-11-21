@@ -1,6 +1,8 @@
 import pandas as pd
 import argparse
 import numpy as np
+# Input: a video of cars (potentially a concatenation of many car clips) and a ground truth file.
+# Output: evaluation score
 # ground turth header: 'License plate', 'Timestamp', 'First frame', 'Last frame', 'Category'
 def get_args():
 	parser = argparse.ArgumentParser()
